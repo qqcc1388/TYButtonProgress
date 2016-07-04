@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		877709D91D2A38AD005BCA23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 877709D81D2A38AD005BCA23 /* main.m */; };
+		877709DC1D2A38AD005BCA23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 877709DB1D2A38AD005BCA23 /* AppDelegate.m */; };
+		877709DF1D2A38AD005BCA23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877709DE1D2A38AD005BCA23 /* ViewController.m */; };
+		877709E21D2A38AD005BCA23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877709E01D2A38AD005BCA23 /* Main.storyboard */; };
+		877709E41D2A38AD005BCA23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877709E31D2A38AD005BCA23 /* Assets.xcassets */; };
+		877709E71D2A38AD005BCA23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877709E51D2A38AD005BCA23 /* LaunchScreen.storyboard */; };
+		877709F21D2A38AD005BCA23 /* TYButtonProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 877709F11D2A38AD005BCA23 /* TYButtonProgressTests.m */; };
+		877709FD1D2A38AD005BCA23 /* TYButtonProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 877709FC1D2A38AD005BCA23 /* TYButtonProgressUITests.m */; };
+		87770A0C1D2A38C6005BCA23 /* TYButtonProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 87770A0B1D2A38C6005BCA23 /* TYButtonProgress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		877709EE1D2A38AD005BCA23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877709CC1D2A38AD005BCA23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877709D31D2A38AD005BCA23;
+			remoteInfo = TYButtonProgress;
+		};
+		877709F91D2A38AD005BCA23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877709CC1D2A38AD005BCA23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877709D31D2A38AD005BCA23;
+			remoteInfo = TYButtonProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		877709D41D2A38AD005BCA23 /* TYButtonProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYButtonProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		877709D81D2A38AD005BCA23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		877709DA1D2A38AD005BCA23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		877709DB1D2A38AD005BCA23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		877709DD1D2A38AD005BCA23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		877709DE1D2A38AD005BCA23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		877709E11D2A38AD005BCA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		877709E31D2A38AD005BCA23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		877709E61D2A38AD005BCA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		877709E81D2A38AD005BCA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877709ED1D2A38AD005BCA23 /* TYButtonProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYButtonProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		877709F11D2A38AD005BCA23 /* TYButtonProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYButtonProgressTests.m; sourceTree = "<group>"; };
+		877709F31D2A38AD005BCA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877709F81D2A38AD005BCA23 /* TYButtonProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYButtonProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		877709FC1D2A38AD005BCA23 /* TYButtonProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYButtonProgressUITests.m; sourceTree = "<group>"; };
+		877709FE1D2A38AD005BCA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87770A0A1D2A38C6005BCA23 /* TYButtonProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYButtonProgress.h; sourceTree = "<group>"; };
+		87770A0B1D2A38C6005BCA23 /* TYButtonProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYButtonProgress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877709D11D2A38AD005BCA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877709EA1D2A38AD005BCA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877709F51D2A38AD005BCA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877709CB1D2A38AD005BCA23 = {
+			isa = PBXGroup;
+			children = (
+				877709D61D2A38AD005BCA23 /* TYButtonProgress */,
+				877709F01D2A38AD005BCA23 /* TYButtonProgressTests */,
+				877709FB1D2A38AD005BCA23 /* TYButtonProgressUITests */,
+				877709D51D2A38AD005BCA23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877709D51D2A38AD005BCA23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877709D41D2A38AD005BCA23 /* TYButtonProgress.app */,
+				877709ED1D2A38AD005BCA23 /* TYButtonProgressTests.xctest */,
+				877709F81D2A38AD005BCA23 /* TYButtonProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877709D61D2A38AD005BCA23 /* TYButtonProgress */ = {
+			isa = PBXGroup;
+			children = (
+				877709DA1D2A38AD005BCA23 /* AppDelegate.h */,
+				877709DB1D2A38AD005BCA23 /* AppDelegate.m */,
+				877709DD1D2A38AD005BCA23 /* ViewController.h */,
+				877709DE1D2A38AD005BCA23 /* ViewController.m */,
+				87770A0A1D2A38C6005BCA23 /* TYButtonProgress.h */,
+				87770A0B1D2A38C6005BCA23 /* TYButtonProgress.m */,
+				877709E01D2A38AD005BCA23 /* Main.storyboard */,
+				877709E31D2A38AD005BCA23 /* Assets.xcassets */,
+				877709E51D2A38AD005BCA23 /* LaunchScreen.storyboard */,
+				877709E81D2A38AD005BCA23 /* Info.plist */,
+				877709D71D2A38AD005BCA23 /* Supporting Files */,
+			);
+			path = TYButtonProgress;
+			sourceTree = "<group>";
+		};
+		877709D71D2A38AD005BCA23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877709D81D2A38AD005BCA23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		877709F01D2A38AD005BCA23 /* TYButtonProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				877709F11D2A38AD005BCA23 /* TYButtonProgressTests.m */,
+				877709F31D2A38AD005BCA23 /* Info.plist */,
+			);
+			path = TYButtonProgressTests;
+			sourceTree = "<group>";
+		};
+		877709FB1D2A38AD005BCA23 /* TYButtonProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				877709FC1D2A38AD005BCA23 /* TYButtonProgressUITests.m */,
+				877709FE1D2A38AD005BCA23 /* Info.plist */,
+			);
+			path = TYButtonProgressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877709D31D2A38AD005BCA23 /* TYButtonProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87770A011D2A38AD005BCA23 /* Build configuration list for PBXNativeTarget "TYButtonProgress" */;
+			buildPhases = (
+				877709D01D2A38AD005BCA23 /* Sources */,
+				877709D11D2A38AD005BCA23 /* Frameworks */,
+				877709D21D2A38AD005BCA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYButtonProgress;
+			productName = TYButtonProgress;
+			productReference = 877709D41D2A38AD005BCA23 /* TYButtonProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		877709EC1D2A38AD005BCA23 /* TYButtonProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87770A041D2A38AD005BCA23 /* Build configuration list for PBXNativeTarget "TYButtonProgressTests" */;
+			buildPhases = (
+				877709E91D2A38AD005BCA23 /* Sources */,
+				877709EA1D2A38AD005BCA23 /* Frameworks */,
+				877709EB1D2A38AD005BCA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877709EF1D2A38AD005BCA23 /* PBXTargetDependency */,
+			);
+			name = TYButtonProgressTests;
+			productName = TYButtonProgressTests;
+			productReference = 877709ED1D2A38AD005BCA23 /* TYButtonProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		877709F71D2A38AD005BCA23 /* TYButtonProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87770A071D2A38AD005BCA23 /* Build configuration list for PBXNativeTarget "TYButtonProgressUITests" */;
+			buildPhases = (
+				877709F41D2A38AD005BCA23 /* Sources */,
+				877709F51D2A38AD005BCA23 /* Frameworks */,
+				877709F61D2A38AD005BCA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877709FA1D2A38AD005BCA23 /* PBXTargetDependency */,
+			);
+			name = TYButtonProgressUITests;
+			productName = TYButtonProgressUITests;
+			productReference = 877709F81D2A38AD005BCA23 /* TYButtonProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877709CC1D2A38AD005BCA23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tiny;
+				TargetAttributes = {
+					877709D31D2A38AD005BCA23 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					877709EC1D2A38AD005BCA23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 877709D31D2A38AD005BCA23;
+					};
+					877709F71D2A38AD005BCA23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 877709D31D2A38AD005BCA23;
+					};
+				};
+			};
+			buildConfigurationList = 877709CF1D2A38AD005BCA23 /* Build configuration list for PBXProject "TYButtonProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877709CB1D2A38AD005BCA23;
+			productRefGroup = 877709D51D2A38AD005BCA23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877709D31D2A38AD005BCA23 /* TYButtonProgress */,
+				877709EC1D2A38AD005BCA23 /* TYButtonProgressTests */,
+				877709F71D2A38AD005BCA23 /* TYButtonProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877709D21D2A38AD005BCA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877709E71D2A38AD005BCA23 /* LaunchScreen.storyboard in Resources */,
+				877709E41D2A38AD005BCA23 /* Assets.xcassets in Resources */,
+				877709E21D2A38AD005BCA23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877709EB1D2A38AD005BCA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877709F61D2A38AD005BCA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877709D01D2A38AD005BCA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877709DF1D2A38AD005BCA23 /* ViewController.m in Sources */,
+				877709DC1D2A38AD005BCA23 /* AppDelegate.m in Sources */,
+				877709D91D2A38AD005BCA23 /* main.m in Sources */,
+				87770A0C1D2A38C6005BCA23 /* TYButtonProgress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877709E91D2A38AD005BCA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877709F21D2A38AD005BCA23 /* TYButtonProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877709F41D2A38AD005BCA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877709FD1D2A38AD005BCA23 /* TYButtonProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		877709EF1D2A38AD005BCA23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877709D31D2A38AD005BCA23 /* TYButtonProgress */;
+			targetProxy = 877709EE1D2A38AD005BCA23 /* PBXContainerItemProxy */;
+		};
+		877709FA1D2A38AD005BCA23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877709D31D2A38AD005BCA23 /* TYButtonProgress */;
+			targetProxy = 877709F91D2A38AD005BCA23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		877709E01D2A38AD005BCA23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877709E11D2A38AD005BCA23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		877709E51D2A38AD005BCA23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877709E61D2A38AD005BCA23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		877709FF1D2A38AD005BCA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87770A001D2A38AD005BCA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87770A021D2A38AD005BCA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYButtonProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eegsmart.TYButtonProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87770A031D2A38AD005BCA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYButtonProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eegsmart.TYButtonProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87770A051D2A38AD005BCA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYButtonProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eegsmart.TYButtonProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYButtonProgress.app/TYButtonProgress";
+			};
+			name = Debug;
+		};
+		87770A061D2A38AD005BCA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYButtonProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eegsmart.TYButtonProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYButtonProgress.app/TYButtonProgress";
+			};
+			name = Release;
+		};
+		87770A081D2A38AD005BCA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYButtonProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eegsmart.TYButtonProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYButtonProgress;
+			};
+			name = Debug;
+		};
+		87770A091D2A38AD005BCA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYButtonProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eegsmart.TYButtonProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYButtonProgress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877709CF1D2A38AD005BCA23 /* Build configuration list for PBXProject "TYButtonProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877709FF1D2A38AD005BCA23 /* Debug */,
+				87770A001D2A38AD005BCA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87770A011D2A38AD005BCA23 /* Build configuration list for PBXNativeTarget "TYButtonProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87770A021D2A38AD005BCA23 /* Debug */,
+				87770A031D2A38AD005BCA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87770A041D2A38AD005BCA23 /* Build configuration list for PBXNativeTarget "TYButtonProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87770A051D2A38AD005BCA23 /* Debug */,
+				87770A061D2A38AD005BCA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87770A071D2A38AD005BCA23 /* Build configuration list for PBXNativeTarget "TYButtonProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87770A081D2A38AD005BCA23 /* Debug */,
+				87770A091D2A38AD005BCA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877709CC1D2A38AD005BCA23 /* Project object */;
+}
