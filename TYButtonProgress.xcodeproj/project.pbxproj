@@ -15,7 +15,7 @@
 		877709E71D2A38AD005BCA23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877709E51D2A38AD005BCA23 /* LaunchScreen.storyboard */; };
 		877709F21D2A38AD005BCA23 /* TYButtonProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 877709F11D2A38AD005BCA23 /* TYButtonProgressTests.m */; };
 		877709FD1D2A38AD005BCA23 /* TYButtonProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 877709FC1D2A38AD005BCA23 /* TYButtonProgressUITests.m */; };
-		87770A0C1D2A38C6005BCA23 /* TYButtonProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 87770A0B1D2A38C6005BCA23 /* TYButtonProgress.m */; };
+		87770A101D2A5257005BCA23 /* TYButtonProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 87770A0F1D2A5257005BCA23 /* TYButtonProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		877709F81D2A38AD005BCA23 /* TYButtonProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYButtonProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		877709FC1D2A38AD005BCA23 /* TYButtonProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYButtonProgressUITests.m; sourceTree = "<group>"; };
 		877709FE1D2A38AD005BCA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87770A0A1D2A38C6005BCA23 /* TYButtonProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYButtonProgress.h; sourceTree = "<group>"; };
-		87770A0B1D2A38C6005BCA23 /* TYButtonProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYButtonProgress.m; sourceTree = "<group>"; };
+		87770A0E1D2A5257005BCA23 /* TYButtonProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYButtonProgress.h; sourceTree = "<group>"; };
+		87770A0F1D2A5257005BCA23 /* TYButtonProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYButtonProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +104,11 @@
 		877709D61D2A38AD005BCA23 /* TYButtonProgress */ = {
 			isa = PBXGroup;
 			children = (
+				87770A0D1D2A5257005BCA23 /* Source */,
 				877709DA1D2A38AD005BCA23 /* AppDelegate.h */,
 				877709DB1D2A38AD005BCA23 /* AppDelegate.m */,
 				877709DD1D2A38AD005BCA23 /* ViewController.h */,
 				877709DE1D2A38AD005BCA23 /* ViewController.m */,
-				87770A0A1D2A38C6005BCA23 /* TYButtonProgress.h */,
-				87770A0B1D2A38C6005BCA23 /* TYButtonProgress.m */,
 				877709E01D2A38AD005BCA23 /* Main.storyboard */,
 				877709E31D2A38AD005BCA23 /* Assets.xcassets */,
 				877709E51D2A38AD005BCA23 /* LaunchScreen.storyboard */,
@@ -143,6 +142,15 @@
 				877709FE1D2A38AD005BCA23 /* Info.plist */,
 			);
 			path = TYButtonProgressUITests;
+			sourceTree = "<group>";
+		};
+		87770A0D1D2A5257005BCA23 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				87770A0E1D2A5257005BCA23 /* TYButtonProgress.h */,
+				87770A0F1D2A5257005BCA23 /* TYButtonProgress.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				877709DF1D2A38AD005BCA23 /* ViewController.m in Sources */,
+				87770A101D2A5257005BCA23 /* TYButtonProgress.m in Sources */,
 				877709DC1D2A38AD005BCA23 /* AppDelegate.m in Sources */,
 				877709D91D2A38AD005BCA23 /* main.m in Sources */,
-				87770A0C1D2A38C6005BCA23 /* TYButtonProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +510,7 @@
 				87770A031D2A38AD005BCA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87770A041D2A38AD005BCA23 /* Build configuration list for PBXNativeTarget "TYButtonProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +519,7 @@
 				87770A061D2A38AD005BCA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87770A071D2A38AD005BCA23 /* Build configuration list for PBXNativeTarget "TYButtonProgressUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +528,7 @@
 				87770A091D2A38AD005BCA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

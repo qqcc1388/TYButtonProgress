@@ -24,8 +24,6 @@
     
     //  [self example2];
     
-    
-    
 }
 
 #pragma mark - 加载倒计时

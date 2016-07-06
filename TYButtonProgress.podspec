@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/qqcc1388/TYButtonProgress.git", :tag => "0.0.1" }
 
-  s.source_files  = 'TYButtonProgress/*', 'TYButtonProgress/**/*.{h,m}'
-  s.exclude_files = 'TYButtonProgress'
+  s.source_files  = 'TYButtonProgress*'
 
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
 
